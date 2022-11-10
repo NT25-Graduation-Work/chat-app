@@ -1,3 +1,6 @@
+# *DO NOT EDIT THIS REPO*
+# *CLONE AND EDIT IN YOUR REPO*
+
 <br />
   <h1 align="center">Chat-app 🦜</h1>
 
