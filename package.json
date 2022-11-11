@@ -8,7 +8,7 @@
     "server": "nodemon server.js",
     "start": "node server.js",
     "client": "yarn start --prefix chat-app-client",
-    "dev": "concurrently \"yarn run server\" \"yarn run chat=app-client\""
+    "dev": "concurrently \"yarn run server\" \"yarn run client\""
   },
   "keywords": [],
   "author": "Lucas Lima",
@@ -23,7 +23,7 @@
     "nodemon": "^2.0.20"
   },
   "volta": {
-    "node": "18.12.1",
+    "node": "16.18.1",
     "yarn": "1.22.19"
   }
 }
