@@ -52,7 +52,7 @@ yarnが必要です(npm不可)
 
 1. リポジトリをclone
    ```sh
-   git clone https://github.com/NT25-Graduation-Work/chat-app-server.git
+   git clone https://github.com/(your username)/chat-app-server.git
    ```
 2. [リポジトリ直下](./)で依存関係をインストール
    ```sh
