@@ -4,10 +4,10 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "get-client": "cd chat-app-client && yarn",
+    "get-client": "cd client && yarn",
     "server": "nodemon server.js",
     "start": "node server.js",
-    "client": "yarn --cwd chat-app-client start",
+    "client": "yarn --cwd client start",
     "dev": "concurrently \"yarn run server\" \"yarn run client\""
   },
   "keywords": [],

@@ -1,0 +1,3 @@
+[submodule "client"]
+	path = client
+	url = https://github.com/NT25-Graduation-Work/chat-app-client
