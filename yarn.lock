@@ -334,7 +334,7 @@ etag@~1.8.1:
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg==
 
-express@^4.17.3:
+express@^4.18.2:
   version "4.18.2"
   resolved "https://registry.yarnpkg.com/express/-/express-4.18.2.tgz#3fabe08296e930c796c19e3c516979386ba9fd59"
   integrity sha512-5/PsL6iGPdfQ/lKM1UuielYgv3BUoJfz1aUwU9vHZ+J7gyvwdQXFEBIEIaxeGf0GIcreATNyBExtalisDbuMqQ==
@@ -617,10 +617,10 @@ node-bin-setup@^1.0.0:
   resolved "https://registry.yarnpkg.com/node-bin-setup/-/node-bin-setup-1.1.3.tgz#d45d5220e3b2ecc3a94263a56116f727f6c1bb14"
   integrity sha512-opgw9iSCAzT2+6wJOETCpeRYAQxSopqQ2z+N6BXwIMsQQ7Zj5M8MaafQY8JMlolRR6R1UXg2WmhKp0p9lSOivg==
 
-node@^14.21.0:
-  version "14.21.0"
-  resolved "https://registry.yarnpkg.com/node/-/node-14.21.0.tgz#8d44e235e55fce09732e61ce65302615deb8e563"
-  integrity sha512-2uqYA9wsGorHxo+ioIhDePZbpwc7Rd6mrfddEDNGGOZ34ANCxlA+S5gDdvgEu1Nml7Bwgh8re7cmTcBT8sZ2RQ==
+node@^14.21.2:
+  version "14.21.2"
+  resolved "https://registry.yarnpkg.com/node/-/node-14.21.2.tgz#d1f0926e32016de3deee6bd3327bbdaa8f391bf7"
+  integrity sha512-im2MYHho+OXENoAxnngKc+3cn45ZBzMyVwCWFXJzP15qVj63bEMR4IyWS/Y3J9fzu/UGHHOIhmErTFylAbbH8w==
   dependencies:
     node-bin-setup "^1.0.0"
 
@@ -902,7 +902,7 @@ socket.io-parser@~4.0.3:
     component-emitter "~1.3.0"
     debug "~4.3.1"
 
-socket.io@^3.0.5:
+socket.io@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/socket.io/-/socket.io-3.1.2.tgz#06e27caa1c4fc9617547acfbb5da9bc1747da39a"
   integrity sha512-JubKZnTQ4Z8G4IZWtaAZSiRP3I/inpy8c/Bsx2jrwGrTbKeVU5xd6qkKMHpChYeM3dWZSO0QACiGK+obhBNwYw==
