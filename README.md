@@ -1,26 +1,8 @@
-# *DO NOT EDIT THIS REPO*
-# *CLONE AND EDIT IN YOUR REPO*
-
-<br />
-  <h1 align="center">Chat-app 🦜</h1>
-
-  <p align="center">
-    A chat app built with Node.js, Socket.io, React.js, and Tailwind CSS.
-    <br />
-    <br />
-    <a href="http://chat-app-on.herokuapp.com/">View Demo</a>
-    ·
-    <a href="https://github.com/lucasmrl/chat-app/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/lucasmrl/chat-app/issues">Request Feature</a>
-  </p>
-</p>
-
 <!-- ABOUT THE PROJECT -->
 
-## About The Project
+# About The Project
 
-![Chat-app🦜](https://github.com/lucasmrl/chat-app/blob/master/screenshot.png?raw=true)
+![Chat-app](https://github.com/lucasmrl/chat-app/blob/master/screenshot.png?raw=true)
 
 A real-time app to exchange messages with connected users. Built for learning purposes. This was the first time using **Socket.io**, so I decided to follow their tutorial to create a chat app and I added a few of the suggested features.
 
@@ -43,7 +25,7 @@ yarnが必要です(npm不可)
 
 - yarn
   ```sh
-  volta install yarn@latest
+  volta install yarn@1
   ```
 
   [How to install Volta](https://github.com/NT25-Graduation-Work/how-to/wiki/Node.js)
@@ -51,8 +33,9 @@ yarnが必要です(npm不可)
 ### Installation
 
 1. リポジトリをclone
+submoduleなので[](./client)は勝手に取得される
    ```sh
-   git clone https://github.com/(your username)/chat-app-server.git
+   git clone --recursive https://github.com/NT25-Graduation-Work/chat-app-server.git
    ```
 2. [リポジトリ直下](./)で依存関係をインストール
    ```sh
@@ -66,6 +49,11 @@ yarnが必要です(npm不可)
 4. 開発環境を起動(クライアントとサーバー両方):
    ```sh
    yarn run dev
+   ```
+   
+5. submoduleを忘れてcloneした場合は
+   ```sh
+   git submodule update --init --recursive
    ```
 
 ### Deploy (Example using Heroku)
